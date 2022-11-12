@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void) {
+  char x;
+  while (x != '4'){
+    printf("\nEscolha um item(1, 2, 3 ou 4 para sair) :");
+    scanf("%s", &x);
+    switch (x){
+      case '1':
+          printf ("\n voce escolheu 1 ");
+          break;
+      case '2':
+          printf ("\n voce escolheu 2 ");
+          break;
+      case '3':
+          printf ("\n voce escolheu 3 ");
+          break;
+      case '4':
+          printf ("\n SAINDO DO PROGRAMA ");
+          break;
+      default:
+          printf("\n opção invalida");
+    }
+  }
+}
